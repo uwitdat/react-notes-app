@@ -1,0 +1,76 @@
+.flex-contain {
+  display: flex;
+  justify-content: center;
+}
+
+.note {
+  border: 1px solid transparent;
+  border-radius: 15px;
+  padding: 1rem;
+  margin: 1rem;
+  width: 60vw;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  text-align: center;
+  box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+}
+
+.note-icons {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.note-title {
+  display: inline-block;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  color: var(--color-primary);
+  border-bottom: 1px solid var(--color-primary);
+  margin: 0;
+}
+
+.heart {
+  color: rgb(173, 15, 15);
+  display: flex;
+  transition: 200ms;
+  justify-content: flex-end;
+}
+
+.heart:hover {
+  cursor: pointer;
+}
+
+.note-edit {
+  color: rgb(51, 51, 51);
+}
+
+.note-p {
+  font-size: 1.5rem;
+}
+
+.note-date {
+  color: rgb(92, 92, 92);
+  font-size: 0.8rem;
+}
+
+.edit {
+  transition: 200ms;
+}
+
+.edit:hover {
+  cursor: pointer;
+  transform: scale(1.1);
+  color: rgb(95, 95, 95);
+}
+
+.trash {
+  transition: 200ms;
+}
+
+.trash:hover {
+  cursor: pointer;
+  transform: scale(1.1);
+  color: rgb(95, 95, 95);
+}
