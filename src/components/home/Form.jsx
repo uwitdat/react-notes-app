@@ -20,11 +20,11 @@ const Form = () => {
             <form onSubmit={handleSubmit}>
                 <h5 className=''>New Note</h5>
                 <div className="input-field">
-                    <input id='note_title' type="text" className="validate" {...bindTitle} />
+                    <input id='note_title' type="text" className="validate" required='true' {...bindTitle} />
                     <label className="active" htmlFor='note_title'>Note Title</label>
                 </div>
                 <div className='input-field'>
-                    <textarea id="note_content" class="materialize-textarea" {...bindContent}></textarea>
+                    <textarea id="note_content" class="materialize-textarea" required='true' {...bindContent}></textarea>
                     <label htmlFor="note_content">Note Content</label>
                 </div>
                 <button className='btn'>Submit</button>
