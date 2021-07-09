@@ -47,3 +47,12 @@ nav {
 h5 {
   margin-bottom: 3rem;
 }
+
+.section-edit {
+  width: 60vw;
+  margin: 0 auto;
+}
+
+a {
+  color: rgb(51, 51, 51);
+}
